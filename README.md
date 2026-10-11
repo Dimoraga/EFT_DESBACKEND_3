@@ -1,6 +1,6 @@
 # Banco XYZ: BFF + OAuth2 + Resiliencia + Kafka en Docker
 
-Actividad sumativa 1 de **Desarrollo Backend III** (Semana 8). Sobre el sistema bancario que se viene construyendo en el curso (batch de la primera sumativa y BFF por canal de la semana 5), este proyecto agrega:
+Actividad correspondiente a la Evaluación Final Transversal (EFT) del curso desarrollo Backend III. Sobre el sistema bancario que se viene construyendo en el curso (batch de la primera sumativa y BFF por canal de la semana 5), este proyecto agrega:
 
 - **OAuth2**: un Authorization Server propio que emite tokens `client_credentials` para la comunicación servicio a servicio, y un core que los valida como Resource Server con autorización por scope.
 - **Resiliencia** con Resilience4j en los 3 BFF: circuit breaker, retry, bulkhead y timeouts, con respuesta controlada **503 + `Retry-After`**.
